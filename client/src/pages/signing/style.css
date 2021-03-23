@@ -1,0 +1,51 @@
+body, html {
+    overflow-x: hidden;
+    overflow-y: auto;   
+}
+.body, html::-webkit-scrollbar {
+    display: none;
+}
+
+.backbox {
+    background: linear-gradient(to right, rgba(252, 252, 252, 0) 0, rgba(255, 255, 255, 1) 740px, rgba(255, 255, 255, 1) 90px), url(https://i.pinimg.com/736x/e0/03/bb/e003bb67f901e8f5860296f90b1d524a--dark-romanticism-gustave-dore.jpg) no-repeat fixed;
+    /* height: 500px; */
+    height: 1200px;
+    box-sizing: border-box;
+}
+.right {
+    position:static;
+    opacity: .2; 
+    margin-left: -20%;
+}
+
+.right :hover  {
+    opacity: .5;
+}
+
+.forms {
+    width: 30%;
+    min-width: 370px;
+    margin: auto;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+@media (max-width: 800px){
+    .backbox {
+        column-width: 100%;
+    }
+    .right {
+        display: none;
+    }
+    .forms {
+     color: white;
+     text-shadow: 2px 2px 10px black;
+     background-color: rgba(128, 128, 128, 0.418);
+     width: 80%;
+     min-width: 300px;
+     margin-right: 20%;
+     margin-left: 10%;
+     padding: 5%;
+    }
+   
+}

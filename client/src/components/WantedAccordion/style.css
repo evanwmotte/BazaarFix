@@ -1,0 +1,38 @@
+#contenedor {
+    margin-left: 5%;
+    width: 90%;
+    height:"100%";
+    align-items: center;
+
+  }
+#title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px rgba(85, 107, 47, 0.966);
+    margin-bottom: 20px;
+}
+#heading {
+    background: rgba(248, 248, 248, 0.651);
+    border-radius: 10px ;
+    box-shadow: 5px 5px 5px #5e5d5d;
+    }
+
+#heading :hover {
+    background: rgba(239, 247, 226, 0.856);
+    border-radius: 10px ;
+}
+#botones {
+  float:right;
+  margin-top: 5%;
+  padding: 0.6rem;
+  outline: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  background-color:rgba(143, 156, 121, 0.747);
+}
+#ad, .headers {
+  text-shadow: 5px 5px 10px rgba(85, 107, 47, 0.966);
+}

@@ -1,0 +1,24 @@
+.grid-item {
+    padding: 0 0px;
+    margin: 5px 5px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+}
+.menu-item-wrapper.active {
+    border: 1px blue solid;
+
+}
+.grid-item.active {
+    border: 1px green solid;
+}
+
+
+.scroll-menu-arrow {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-wrapper {
+    transform: 20px, 0px, 0px
+}

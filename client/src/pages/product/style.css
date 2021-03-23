@@ -1,0 +1,15 @@
+.bgcard {
+  position: static;;
+  opacity: .62; 
+  margin-right: -40%;
+  margin-bottom: -40%;
+}
+
+  .productcard {
+    background: rgb(255, 255, 254);
+    border-radius: 10px ;
+    box-shadow: 5px 5px 5px #5e5d5d;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    } 
